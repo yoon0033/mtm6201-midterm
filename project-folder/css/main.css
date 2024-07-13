@@ -194,18 +194,61 @@ h2 {
   padding: 0 1.5rem;
 }
 
-.explore .button {
-  display: block;
-  width: fit-content;
-  margin: 1rem auto;
-  background-color: #d69e3d;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: 'Karla', sans-serif;
-  transition: background-color 0.3s ease;
+/* Explore section styles */
+
+.explore {
+  position: relative;
+  text-align: center;
+}
+
+.coffe-shop {
+  height: 100vh; /* Full height */
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.explore-text {
+  position: relative;
+  padding: 2rem;
+}
+
+.explore-text h2 {
+  margin-top: 5px;
+  margin-bottom: 20px; 
+}
+
+.explore-text p {
+  color: #d69e3d;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.explore-text .button-primary {
+  background-color: #ffffff; 
+  color: #000000; 
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-weight: bold; 
+  font-size: 2rem; 
+  padding: 1.5rem 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.explore-text .button-secondary {
+  color: #ffffff;
+  border: 4px solid #ffffff;
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-weight: bold; 
+  font-size: 2rem; 
+  padding: 1.5rem 3rem; 
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .explore .button:hover,
