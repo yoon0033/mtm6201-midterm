@@ -146,13 +146,12 @@ h2 {
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
 }
 
 .gallery img:nth-child(1) {
@@ -160,29 +159,39 @@ h2 {
   grid-row: span 2;
 }
 
-.features .feature {
-  background-color: #f9f9f9;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  margin: 1rem;
+/* feature section styles - Why visit us? */
+.features {
   text-align: center;
-  max-width: 300px;
 }
 
-.features .feature img {
-  max-width: 100px;
-  margin-bottom: 1rem;
-}
-
-.features .feature h3 {
-  font-size: 1.424rem;
+.features .why {
+  color: #d69e3d;
   font-family: 'Lato', sans-serif;
-  margin-top: 0.5rem;
+  font-size: 2.5rem;
 }
 
-.features .feature p {
-  font-size: 1rem;
-  margin-top: 0.5rem;
+.feature {
+  margin-bottom: 2rem; 
+}
+
+.feature img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 300px; 
+}
+
+.feature h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.feature p {
+  font-family: 'Karla', sans-serif;
+  font-size: 2rem; 
+  text-align: center;
+  padding-bottom: 6rem;
+  padding: 0 1.5rem;
 }
 
 .explore .button {
