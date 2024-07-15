@@ -354,6 +354,10 @@ padding-left: 100px;
   padding: 10px 40px;
 }
 
+.learn:hover {
+  background-color: #d69e3d;
+}
+
 
 /* TESTIMONIALS , WHAT OUR COSTOMERS SAY ABOUT US */
 .testimonials {
