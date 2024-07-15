@@ -592,7 +592,57 @@ p{
   position: relative;
   height: 850px;
 }
+
+.experience-text {
+  text-align: center;
 }
+
+/* WELCOME TO MY COFFEE HOUSE */
+.welcome-content h2 {
+  line-height: 50px;
+}
+
+/* WHAT WE OFFER , WHY VISIT US? */
+.visit-text{
+display: flex;
+text-align: center;
+}
+.fair p, .local p, .made p{
+  padding-left: 55px;
+}
+.small{
+  max-width: 40%;
+}
+
+/* OUR MENU , LOCATIONS */
+.our-menu h2 , .locations h2 {
+  max-width: 70%;
+  padding-left: 120px;
+}
+
+/* ABOUT US , READ OUR STORY */
+.about {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.about-text {
+  margin-top: 200px;
+}
+
+/* TESTIMONIALS , WHAT OUR COSTOMERS SAY ABOUT US */
+.testimonials-content {
+  margin-left: 150px;
+  max-width: 50%;
+}
+.jane {
+  margin-left: 150px;
+}
+.susie {
+  margin-right: 150px;
+}
+}
+
+
 
 
 
