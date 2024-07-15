@@ -325,14 +325,12 @@ padding-left: 100px;
 /* ABOUT US , READ OUR STORY */
 .about {
   padding-top: 130px;
-  padding-left: 20px;
 }
 
-.about-img {
+.about-img img {
   width: 100%;
   height: auto;
 }
-
 
 .aboutp {
   color: #d69e3d;
@@ -340,17 +338,17 @@ padding-left: 100px;
   padding-bottom: 15px;
   text-transform: uppercase;
 }
-
+.about-text {
+  padding-left: 10px;
+}
 .about-text h2 {
   text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 15px;
 }
-
 .about-text p {
   padding-bottom: 20px;
 }
-
 .learn {
   background-color: #000;
   color: #ffffff;
