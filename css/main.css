@@ -142,13 +142,13 @@ nav ul {
 .experience-text {
   color: #ffffff;
   background-color: #0000008a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   position: absolute;
   height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .experience-text h1 {
